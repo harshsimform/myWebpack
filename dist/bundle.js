@@ -1,4 +1,4 @@
 (() => {
   "use strict";
-  console.log("Hello"), console.log("harsh patel");
+  console.log({ name: "vatsal", age: 22 });
 })();
