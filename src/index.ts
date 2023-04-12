@@ -1,4 +1,5 @@
 import { Person } from "./interface";
+import "./style.css";
 
 const user: Person = {
   name: "harsh",

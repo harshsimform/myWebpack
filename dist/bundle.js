@@ -1,4 +1,1 @@
-(() => {
-  "use strict";
-  console.log({ name: "vatsal", age: 22 });
-})();
+(()=>{"use strict";var e={307:(e,r,o)=>{o.r(r)}},r={};function o(t){var n=r[t];if(void 0!==n)return n.exports;var a=r[t]={exports:{}};return e[t](a,a.exports,o),a.exports}o.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})};(()=>{o(307);console.log({name:"harsh",age:22})})()})();
