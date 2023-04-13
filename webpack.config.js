@@ -1,26 +1,3 @@
-// module.exports = {
-//   mode: "production",
-//   entry: "./src/App.js",
-//   output: {
-//     path: path.resolve(__dirname, "dist"),
-//     filename: "bundle.js",
-//   },
-//   devServer: {
-//     static: {
-//       directory: path.join(__dirname, "dist"),
-//     },
-//     compress: true,
-//     port: 6455,
-//   },
-//   module: {
-//     rules: [
-//       {
-//         test: /\.css$/,
-//         use: ["style-loader", "css-loader"],
-//       },
-//     ],
-//   },
-// };
 const path = require("path");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const HTMLWebpackPlugin = require("html-webpack-plugin");
@@ -59,7 +36,7 @@ module.exports = {
       filename: "bundle.css",
     }),
     new CopyPlugin({
-      patterns: [{ from: "./src/Asset", to: "asset" }],
+      patterns: [{ from: "./src/Asset", to: "Asset" }],
     }),
   ],
   devServer: {

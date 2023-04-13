@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "noImplicitAny": true,
-    "target": "ES2022",
-    "module": "CommonJS"
+    "module": "CommonJS",
+    "target": "ES6"
   }
 }
